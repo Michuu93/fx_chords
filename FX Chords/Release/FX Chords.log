@@ -1,0 +1,55 @@
+﻿Build started 2012-03-20 12:01:01.
+     1>Project "D:\Michał\FX Chords\FX Chords\FX Chords.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FX Chords.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Messaging.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "FX Chords.cpp" /clr:nostdlib 
+         FX Chords.cpp
+     1>d:\michał\fx chords\fx chords\Form1.h(32): warning C4538: 'cli::array<Type>' : const/volatile qualifiers on this type are not supported
+                 with
+                 [
+                     Type=System::String ^
+                 ]
+     1>d:\michał\fx chords\fx chords\Form1.h(33): warning C4538: 'cli::array<Type>' : const/volatile qualifiers on this type are not supported
+                 with
+                 [
+                     Type=System::String ^
+                 ]
+     1>d:\michał\fx chords\fx chords\Form1.h(32): warning C4538: 'cli::array<Type> ^' : const/volatile qualifiers on this type are not supported
+                 with
+                 [
+                     Type=System::String ^
+                 ]
+                 This diagnostic occurred in the compiler generated function 'void FXChords::Form1::Form1(void)'
+     1>d:\michał\fx chords\fx chords\Form1.h(33): warning C4538: 'cli::array<Type> ^' : const/volatile qualifiers on this type are not supported
+                 with
+                 [
+                     Type=System::String ^
+                 ]
+                 This diagnostic occurred in the compiler generated function 'void FXChords::Form1::Form1(void)'
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Messaging.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Release\FXChords.Form1.resources
+         Processing resource file "Form1.resX" into "Release\FXChords.Form1.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Michał\FX Chords\Release\FX Chords.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\FXChords.Form1.resources /MANIFEST /ManifestFile:"Release\FX Chords.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Michał\FX Chords\Release\FX Chords.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         "Release\FX Chords.obj"
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         FX Chords.vcxproj -> D:\Michał\FX Chords\Release\FX Chords.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Michał\FX Chords\Release\FX Chords.exe;#1" /manifest "Release\FX Chords.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\FX Chords.unsuccessfulbuild".
+         Touching "Release\FX Chords.lastbuildstate".
+     1>Done Building Project "D:\Michał\FX Chords\FX Chords\FX Chords.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93
